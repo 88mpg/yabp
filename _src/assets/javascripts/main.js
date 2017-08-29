@@ -1,3 +1,6 @@
+const fastclick = require('fastclick')
+fastclick.attach(document.body)
+
 const boxes = Array.from(document.querySelectorAll('.box'))
 
 boxes.forEach(button => button.addEventListener('mousedown', mouseDown))
