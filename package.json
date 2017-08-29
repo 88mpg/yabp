@@ -5,8 +5,9 @@
   "author": "Adam Fratino",
   "license": "MIT",
   "scripts": {
-    "start": "yarn build && gulp watch serve",
-    "build": "rm -rf ./_dist && gulp styles html scripts"
+    "start": "yarn build &&  yarn copy && gulp watch serve",
+    "build": "rm -rf ./_dist && gulp styles html scripts",
+    "copy": "cp -r _static/. ./_dist/"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",

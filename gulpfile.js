@@ -21,7 +21,7 @@ const cssnano = require('gulp-cssnano');
 const webpack = require('webpack2-stream-watch');
 
 const supported = [
-    'last 2 versions',
+    'last 3 versions',
     'safari >= 8',
     'ie >= 11',
     'ff >= 20',

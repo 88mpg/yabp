@@ -1,1 +1,14 @@
-index
+<div class="main-container">
+  
+  <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, veniam!</h1>
+
+  <div class="grid-container">
+    {{#each clips}}
+    <div class="box" data-clip="{{ file }}">{{{ quote }}}</div>
+    {{/each}}
+  </div>
+
+  {{#each clips}}
+  <audio data-clip="{{ file }}" src="/assets/sounds/{{ file }}"></audio>
+  {{/each}}
+</div>

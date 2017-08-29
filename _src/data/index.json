@@ -1,3 +1,40 @@
 {
-  "title": "use the data file"
+  "clips": [
+    {
+      "quote": "Boom",
+      "file": "boom.wav"
+    },
+    {
+      "quote": "Clap",
+      "file": "clap.wav"
+    },
+    {
+      "quote": "Hi-Hat",
+      "file": "hihat.wav"
+    },
+    {
+      "quote": "Kick",
+      "file": "kick.wav"
+    },
+    {
+      "quote": "Open Hat",
+      "file": "openhat.wav"
+    },
+    {
+      "quote": "Ride",
+      "file": "ride.wav"
+    },
+    {
+      "quote": "Snare",
+      "file": "snare.wav"
+    },
+    {
+      "quote": "Tink",
+      "file": "tink.wav"
+    },
+    {
+      "quote": "Tom",
+      "file": "tom.wav"
+    }
+  ]
 }
