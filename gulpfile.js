@@ -58,7 +58,7 @@ gulp.task('scripts', () => {
 
 gulp.task('styles', () => {
   gulp.src(`${config.src + config.css.local}styles.scss`)
-  .pipe(sourcemaps.init())
+  // .pipe(sourcemaps.init())
     .pipe(sass({includePaths: config.css.paths}).on('error', sass.logError))
     // .pipe(gulpif(config.prod(), purify([`${config.build}**/*.html`, `${config.build}assets/js/**/*.js`])))
     // .pipe(gulpif(config.prod(), cssnano({discardComments: { removeAll: true }})))
@@ -68,7 +68,7 @@ gulp.task('styles', () => {
         add: true
       }
     }))
-    .pipe(sourcemaps.write())
+    // .pipe(sourcemaps.write())
     .pipe(gulp.dest(`${config.build}assets/styles`))
     .pipe(browserSync.stream());
 });
