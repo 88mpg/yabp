@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn build &&  yarn copy && gulp watch serve",
-    "build": "rm -rf ./_dist && gulp styles html scripts",
+    "build": "rm -rf ./_dist && yarn copy && gulp styles html scripts",
     "copy": "cp -r _static/. ./_dist/"
   },
   "devDependencies": {
