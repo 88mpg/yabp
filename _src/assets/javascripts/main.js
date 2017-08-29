@@ -5,6 +5,8 @@ const boxes = Array.from(document.querySelectorAll('.box'))
 
 boxes.forEach(button => button.addEventListener('mousedown', mouseDown))
 boxes.forEach(button => button.addEventListener('mouseup', mouseUp))
+boxes.forEach(button => button.addEventListener('touchstart', mouseDown))
+boxes.forEach(button => button.addEventListener('touchend', mouseUp))
 
 function mouseDown(e) {
   const clip = e.srcElement.dataset.clip
