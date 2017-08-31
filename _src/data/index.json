@@ -1,40 +1,219 @@
 {
   "clips": [
     {
-      "quote": "Boom",
-      "file": "boom.wav"
+      "quote": "Bagina",
+      "file": "bagina.mp3"
     },
     {
-      "quote": "Clap",
-      "file": "clap.wav"
+      "quote": "Bro",
+      "file": "bro.mp3"
     },
     {
-      "quote": "Hi-Hat",
-      "file": "hihat.wav"
+      "quote": "Brov",
+      "file": "brov.mp3"
     },
     {
-      "quote": "Kick",
-      "file": "kick.wav"
+      "quote": "Dale",
+      "file": "dale.mp3"
     },
     {
-      "quote": "Open Hat",
-      "file": "openhat.wav"
+      "quote": "Dick In The Dirt",
+      "file": "dick_in_the_dirt.mp3"
     },
     {
-      "quote": "Ride",
-      "file": "ride.wav"
+      "quote": "GUAT!",
+      "file": "guat.mp3"
     },
     {
-      "quote": "Snare",
-      "file": "snare.wav"
+      "quote": "Go Kick Rocks",
+      "file": "go_kick_rocks.mp3"
     },
     {
-      "quote": "Tink",
-      "file": "tink.wav"
+      "quote": "HOKAY",
+      "file": "hokay.mp3"
     },
     {
-      "quote": "Tom",
-      "file": "tom.wav"
+      "quote": "Halo",
+      "file": "halo.mp3"
+    },
+    {
+      "quote": "Hey Gorge",
+      "file": "hey_gorge.mp3"
+    },
+    {
+      "quote": "Hullo",
+      "file": "hullo.mp3"
+    },
+    {
+      "quote": "Is A Suuurrprise!",
+      "file": "is_a_suuurrprise.mp3"
+    },
+    {
+      "quote": "JES",
+      "file": "jes.mp3"
+    },
+    {
+      "quote": "KIND OF A RAGING ASSHOLE",
+      "file": "kind_of_a_raging_asshole.mp3"
+    },
+    {
+      "quote": "KWAAANNN",
+      "file": "kwaaannnn.mp3"
+    },
+    {
+      "quote": "King",
+      "file": "king.mp3"
+    },
+    {
+      "quote": "Like Dis",
+      "file": "like_dis.mp3"
+    },
+    {
+      "quote": "Like Diss",
+      "file": "like_diss.mp3"
+    },
+    {
+      "quote": "MAHHHH",
+      "file": "mahhhh.mp3"
+    },
+    {
+      "quote": "Mami",
+      "file": "mami.mp3"
+    },
+    {
+      "quote": "Mimi Made It!",
+      "file": "mimi_made_it.mp3"
+    },
+    {
+      "quote": "Mmermp",
+      "file": "mmermp.mp3"
+    },
+    {
+      "quote": "Mozeez",
+      "file": "mozeez.mp3"
+    },
+    {
+      "quote": "NOH!",
+      "file": "noh.mp3"
+    },
+    {
+      "quote": "NOOOHHH!!",
+      "file": "noooohhhh.mp3"
+    },
+    {
+      "quote": "NOOOO",
+      "file": "noooooooooooo.mp3"
+
+    },
+    {
+      "quote": "No Puedo",
+      "file": "no_puedo.mp3"
+    },
+    {
+      "quote": "No",
+      "file": "no.mp3"
+
+    },
+    {
+      "quote": "Oh Gouw",
+      "file": "oh_gouw.mp3"
+    },
+    {
+      "quote": "Okay!",
+      "file": "okay.mp3"
+    },
+    {
+      "quote": "Pa La Pinga Bro",
+      "file": "pa_la_pinga_bro.mp3"
+    },
+    {
+      "quote": "Papi",
+      "file": "papi.mp3"
+    },
+    {
+      "quote": "Pero No",
+      "file": "pero_no.mp3"
+    },
+    {
+      "quote": "Perra",
+      "file": "perra.mp3"
+    },
+    {
+      "quote": "Queen",
+      "file": "queen.mp3"
+    },
+    {
+      "quote": "SHMANKS",
+      "file": "shmanks.mp3"
+    },
+    {
+      "quote": "Schbomps",
+      "file": "schbomps.mp3"
+    },
+    {
+      "quote": "Schmee!",
+      "file": "schmee.mp3"
+    },
+    {
+      "quote": "Shellfish",
+      "file": "shellfish.mp3"
+    },
+    {
+      "quote": "Shmello",
+      "file": "shmello.mp3"
+    },
+    {
+      "quote": "Smermp It",
+      "file": "smermp_it.mp3"
+    },
+    {
+      "quote": "Soazaaz",
+      "file": "soazaaz.mp3"
+    },
+    {
+      "quote": "Sorpriseee",
+      "file": "sorpriseee.mp3"
+    },
+    {
+      "quote": "Suck A Bag of Dicks",
+      "file": "suck_a_bag_of_dicks.mp3"
+    },
+    {
+      "quote": "Tight, Tight, Tight, Tight, Tight",
+      "file": "tight_tight_tight_tight_tight.mp3"
+    },
+    {
+      "quote": "Vagine",
+      "file": "vagine.mp3"
+    },
+    {
+      "quote": "Venga Venga",
+      "file": "venga_venga.mp3"
+    },
+    {
+      "quote": "WOH OH",
+      "file": "woh_oh.mp3"
+    },
+    {
+      "quote": "WOH",
+      "file": "woh.mp3"
+    },
+    {
+      "quote": "WUH OHH",
+      "file": "wuh_ohh.mp3"
+    },
+    {
+      "quote": "Whah",
+      "file": "whah.mp3"
+    },
+    {
+      "quote": "Who Dis",
+      "file": "who_dis.mp3"
+
+    },
+    {
+      "quote": "Yeeeeees",
+      "file": "yeeeeees.mp3"
     }
   ]
 }
