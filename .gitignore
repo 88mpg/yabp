@@ -23,10 +23,4 @@ target/
 git_stats
 hosts_*
 node_modules
-_src
-_static
-config.js
-gulpfile.js
-package.json
-webpack.config.js
-yarn.lock
+_dist
