@@ -1,1 +1,12 @@
-index
+<div class="main-container">
+  <h1>The Sounds of CZ</h1>
+  <div class="grid-container">
+    {{#each clips}}
+    <div class="box" data-clip="{{ file }}">{{{ quote }}}</div>
+    {{/each}}
+  </div>
+
+  {{#each clips}}
+  <audio data-clip="{{ file }}" src="assets/sounds/{{ file }}"></audio>
+  {{/each}}
+</div>

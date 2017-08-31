@@ -1,3 +1,77 @@
+// First value is the breakpoint, second value is the amt of columns
+$breakpoints: (
+  sm: (414px, 3),
+  md: (768px, 4),
+  lg: (1024px, 6),
+  xl: (1200px, 8)
+);
+
+// Actual grid-gap is weird, let's use margins
+$grid-gap: 5px;
+$outer-margin: $grid-gap;
+
+.main-container {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  margin: auto;
+  h1 {
+    padding: 0 1rem;
+    font-size: 2rem;
+    @media (max-width: 768px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.grid-container {
+  display: grid;
+  margin: 0;
+  padding: $outer-margin;
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: repeat(auto-fit, percentage(1/3));
+  @media (min-width: 768px) {
+    grid-auto-rows: minmax(200px, 200px);
+  }
+
+  @each $breakpoints, $breakpoint in $breakpoints {
+    $width: nth($breakpoint, 1);
+    $columns: nth($breakpoint, 2);
+    @media (min-width: $width) {
+      grid-template-columns: repeat(auto-fit, percentage(1/$columns));
+    }
+  }
+}
+
+.box {
+  border-radius: 3px;
+  padding: 1rem;
+  margin: $grid-gap;
+  background-color: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  color: white;
+  line-height: 1.3;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  transition: background 200ms ease;
+  cursor: pointer;
+  &:hover { background: rgba(0,0,0,0.8); }
+  &.clicked {
+    transition: padding 50ms ease;
+    padding-top: 1.5rem;
+  }
+}
+
 body {
-  background: gold;
+  min-height: 100vh;
+  font-family: 'San Francisco', 'Helvetica Neue';
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  background: url('../images/czarinavirgin.jpg') no-repeat top center;
+  background-size: cover;
 }
