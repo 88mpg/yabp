@@ -16,6 +16,7 @@ $outer-margin: $grid-gap;
   text-align: center;
   margin: auto;
   h1 {
+    color: white;
     padding: 0 1rem;
     font-size: 2rem;
     @media (max-width: 768px) {
