@@ -23,7 +23,7 @@ const webpack = require('webpack2-stream-watch');
 const supported = [
     'last 3 versions',
     'safari >= 8',
-    'ie >= 11',
+    'ie >= 10',
     'ff >= 20',
     'ios 6',
     'android 4'
