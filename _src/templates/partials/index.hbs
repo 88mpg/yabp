@@ -1,13 +1,2 @@
-<div class="main-container">
-  <h1>{{{ title }}}</h1>
-  <h3>{{{ description }}}</h3>
-  <div class="grid-container">
-    {{#each clips}}
-    <div class="box" data-clip="{{ file }}">{{{ quote }}}</div>
-    {{/each}}
-  </div>
-
-  {{#each clips}}
-  <audio data-clip="{{ file }}" src="assets/sounds/{{ file }}"></audio>
-  {{/each}}
-</div>
+<h1>{{{ title }}}</h1>
+<p>{{{ description }}}</p>
